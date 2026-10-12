@@ -1,0 +1,85 @@
+/* Paleta e medidas. Três temas por variáveis CSS (data-tema no <html>). */
+:root,
+[data-tema="claro"] {
+  --bg: #f4faf1;
+  --bg-2: #eaf5e6;
+  --surface: #ffffff;
+  --surface-2: #f2f8ef;
+  --border: #dbe9d6;
+  --text: #183a28;
+  --text-2: #4b6656;
+  --muted: #6c8577;
+  --primary: #3f9a5e;
+  --primary-strong: #2f7d52;
+  --primary-ink: #ffffff;
+  --primary-soft: #dcefdc;
+  --primary-soft-ink: #1f5f3b;
+  --title: #1a5a35;
+  --danger: #c0392b;
+  --danger-soft: #fbe5e2;
+  --focus: #1f7a46;
+  --shadow: 0 2px 10px rgba(36, 84, 52, 0.08);
+  --shadow-lg: 0 10px 30px rgba(36, 84, 52, 0.16);
+
+  --cat-banco: #e2f1df;  --cat-banco-ink: #1f5b35;
+  --cat-email: #e0ecf9;  --cat-email-ink: #1c4a85;
+  --cat-redes: #ece3f6;  --cat-redes-ink: #4e2f88;
+  --cat-compras: #fbefd5; --cat-compras-ink: #6b4320;
+  --cat-saude: #fbe2e6;  --cat-saude-ink: #9b2346;
+  --cat-outros: #f3e5d3; --cat-outros-ink: #5d3f1e;
+
+  --radius: 18px;
+  --radius-lg: 24px;
+  --radius-pill: 999px;
+  --fs: 18px;
+  --maxw: 980px;
+  --nav-h: 72px;
+  color-scheme: light;
+}
+
+[data-tema="contraste"] {
+  --bg: #ffffff;
+  --bg-2: #f1f7ef;
+  --surface: #ffffff;
+  --surface-2: #f3f7f2;
+  --border: #6f8f7b;
+  --text: #06180e;
+  --text-2: #12301f;
+  --muted: #2d4a39;
+  --primary: #1b6b3c;
+  --primary-strong: #0b3d22;
+  --primary-soft: #cfe8d3;
+  --primary-soft-ink: #08341c;
+  --title: #0b3d22;
+  --cat-banco-ink: #0d3d1f; --cat-email-ink: #0e3263; --cat-redes-ink: #361b6b;
+  --cat-compras-ink: #4d2c0e; --cat-saude-ink: #7a1131; --cat-outros-ink: #43290c;
+}
+
+[data-tema="escuro"] {
+  --bg: #0f1d16;
+  --bg-2: #13261c;
+  --surface: #182c21;
+  --surface-2: #1d3528;
+  --border: #2c4a39;
+  --text: #e8f4ec;
+  --text-2: #bcd5c5;
+  --muted: #92ad9c;
+  --primary: #58b979;
+  --primary-strong: #46a567;
+  --primary-ink: #08170e;
+  --primary-soft: #234a33;
+  --primary-soft-ink: #cdeed8;
+  --title: #bfe9cc;
+  --danger: #ff8a7a;
+  --danger-soft: #3d1f1b;
+  --focus: #8fe0aa;
+  --shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.45);
+  --cat-banco: #1e3a26;  --cat-banco-ink: #bfe8c9;
+  --cat-email: #1c2f45;  --cat-email-ink: #bcd6f5;
+  --cat-redes: #2c2340;  --cat-redes-ink: #d8c8f2;
+  --cat-compras: #3a3020; --cat-compras-ink: #f3dcb4;
+  --cat-saude: #402229;  --cat-saude-ink: #f5c3cf;
+  --cat-outros: #3a2d20; --cat-outros-ink: #ecd3b4;
+  color-scheme: dark;
+}
